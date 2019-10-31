@@ -6,8 +6,42 @@
 
 ## Contents
 
-- 準備中です。
-<!-- - [2019/12 GameplayTag AdventCalendar](./AdventCalendar/2019/GameplayTag) -->
+- いま作ってます…。
+
+<!--
+
+### Advent Calendars
+
+おひとりさまでやるAdvent Calendarたち。いつまとめた知見かが分かるのがメリット。
+
+- [2019/12 GameplayTag AdventCalendar](./AdventCalendar/2019/GameplayTag)
+
+-->
+
+<!--
+
+### Blueprint Class Designs
+
+Blueprintでのクラス設計指針たち。
+
+-->
+
+<!--
+
+### Blueprint Idioms
+
+Blueprintのちょっとした実装アイディアたち。
+
+-->
+
+<!--
+
+### Blueprint Function Tests
+
+Blueprintの機能テストたち。「そもそも、ここの仕様どうなってるの？」という疑問を解消していくための場所。
+
+-->
 
 
-
+---
+(C) 2019 inks.blue
