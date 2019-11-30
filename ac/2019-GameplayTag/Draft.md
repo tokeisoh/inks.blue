@@ -1,19 +1,20 @@
 # Draft
 
-1. GameplayTagとは？
-    * ゲーム内の要素、状態などを文字列のタグ(ラベル)として表現するためのデータ型。
-    * このAdventCalendarでは、ある程度使い方を絞って情報をまとめる。
+1. GameplayTagざっくり見てみる
+    * ゲーム内の要素、状態などをタグ(ラベル)として表現するためのデータ型。
+    * アセット化されたenumのようなやつ。階層を表現できるのが嬉しい。
+    * 記念すべき初日は、ひとまず雰囲気をざっと掴める程度のスクショを並べてみる。
+    
+    
+    
+    
     * どんな場面で使われるか、何ができるか、グラフィカルに説明する。
-
-    * enumと似た特徴を持つ。enumとの違いは別記事にてまとめる。
-        * エディタ上では文字で表示されるため、状態や意図が分かりやすい。
-        * エディタ上で選択するだけなので、スペルミスなどが起きない。
-        * 内部ではFName(ハッシュ)で扱われるためコピーや比較などが高速。
     * enumにない主な特徴
-        * タグ値は階層を表現することができる。
+
         * すべてのタグ値がGameplayTag型の値として扱われる。
         * C++、Blueprintで、共通してGameplayTag型(C++ではFGameplayTag型と呼ばれる)の値をやりとりできる。バインド不要。
         * タグ値の1セットを1つのDataTableに定義することができ、1プロジェクトで複数のDataTableを利用することが可能。
+        * このAdventCalendarでは、ある程度使い方を絞って情報をまとめる。
 0. GameplayTagを、DataTableで追加する
     * DataTableを使ったやり方に絞る
     * Blueprint上で使うための作業
@@ -25,6 +26,7 @@
 0. enum、bitflagとの違い
     * enumは異なるenum型をコンパイルエラーにできるが、GameplayTagはすべてのタグがGameplay型になるため、コンパイルエラーにできない。
     * 入力ミスが起こる前提で使用する。
+            * タグ値は階層を表現することができる。
 0. GameplayTagとGameplayTagを比較する
 0. GameplayTagContainerに含まれるGameplayTagを調べる
 0. GameplayTagContainerとGameplayTagContainerを比較する
