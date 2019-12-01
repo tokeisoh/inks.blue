@@ -3,7 +3,7 @@
 > [UE4 GameplayTag Advent Calendar 2019](https://qiita.com/advent-calendar/2019/ue4-gameplaytag)  
 >#UE4Study #UE4.23 #UnrealEngine #GameplayTag
 
-* UE4 の GameplayTag についていろいろ調べてまとめるページ。一人 AdventCalendar を兼ねています。
+* UE4 の GameplayTag についていろいろ調べてまとめるページ。ひとり AdventCalendar を兼ねています。
 * [Qiita のカレンダーページはこちら。](https://qiita.com/advent-calendar/2019/ue4-gameplaytag)
 
 ## Index
