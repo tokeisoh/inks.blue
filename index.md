@@ -1,22 +1,17 @@
 # inks.blue
 
-- ここでは、UE4(Blueprint中心)について調べたことを、主に自分向けにまとめている場所です。
-- 誤情報などありましたら、[issueを立てていただける](https://github.com/tokeisoh/inks.blue/issues)と有り難いです。
-- もしくは、twitterでリンク付きツイートなどしていただけましたら、そのうち気づくかも。
+* ここでは、UE4(Blueprint中心)について調べたことを、主に自分向けにまとめています。
+* ツッコミなどありましたら、twitterのリンク付きツイートなどあれば、そのうち気づくかも。
+    * もしくは、[issueを立てていただいても](https://github.com/tokeisoh/inks.blue/issues)。
 
 ## Contents
 
-- ただいま準備中。
-
-<!--
-
 ### Advent Calendars
+* おひとりさまでやるAdvent Calendarたち。
+* 年度を見ればいつまとめた知見かが分かる。
+* 25個も記事書くことになるので、それなりにまとまった情報になる(ハズ)。
 
-おひとりさまでやるAdvent Calendarたち。いつまとめた知見かが分かるのがメリット。
-
-- [2019/12 GameplayTag AdventCalendar](./AdventCalendar/2019/GameplayTag)
-
--->
+* [2019/12 GameplayTag AdventCalendar](./ac/2019-GameplayTag/)
 
 <!--
 
