@@ -6,8 +6,8 @@
 ## これはなに？
 
 * UE4 の GameplayTag について、一人 AdventCalendar です。
-    * 自分が公私プロジェクトで GameplayTag を使う際、気になってたことを、25日に分けてまとめます。
-    * Blueprint メインです。C++ については、必要と思ったところで触れます。
+* 自分が公私プロジェクトで GameplayTag を使う際、気になってたことを、25日に分けてまとめます。
+* Blueprint メインです。C++ については、必要と思ったところで触れます。
 * ツッコミなどありましたら、twitterのリンク付きツイートなどあれば、そのうち気づくかも。
     * もしくは、[issueを立てていただいても](https://github.com/tokeisoh/inks.blue/issues)。
 
