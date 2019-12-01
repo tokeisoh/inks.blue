@@ -49,10 +49,12 @@
 
 ## 次回予告
 
-* 02日目: `タグと言えば: ActorTag, ComponentTagとの違い(準備中)`
+* 02日目: `タグといえば: ActorTag, ComponentTagとの違い(準備中)`
 
-----
+---
 
 > [UE4 GameplayTag Advent Calendar 2019(Qiita)](https://qiita.com/advent-calendar/2019/ue4-gameplaytag)  
-> [inks.blue / UE4 GameplayTag Advent Calendar 2019](./Index.md)  
-> [inks.blue](../../Index.md)
+> [inks.blue > UE4 GameplayTag Advent Calendar 2019](./Index.md)  
+> [inks.blue](../../)
+
+(C) 2019 inks.blue

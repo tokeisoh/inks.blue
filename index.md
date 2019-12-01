@@ -2,7 +2,6 @@
 
 * ここでは、UE4(Blueprint中心)について調べたことを、主に自分向けにまとめています。
 * ツッコミなどありましたら、twitterのリンク付きツイートなどあれば、そのうち気づくかも。
-    * もしくは、[issueを立てていただいても](https://github.com/tokeisoh/inks.blue/issues)。
 
 ## Contents
 
@@ -39,4 +38,5 @@ Blueprintの機能テストたち。「そもそも、ここの仕様どうな�
 
 
 ---
+
 (C) 2019 inks.blue
