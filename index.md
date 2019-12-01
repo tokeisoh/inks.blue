@@ -1,16 +1,16 @@
 # inks.blue
 
-* ここでは、UE4(Blueprint中心)について調べたことを、主に自分向けにまとめています。
+* ここでは、UE4(Blueprintメイン)について調べたこと、考えたことを、主に自分向けにまとめています。
 * ツッコミなどありましたら、twitterのリンク付きツイートなどあれば、そのうち気づくかも。
 
 ## Contents
 
 ### Advent Calendars
-* おひとりさまでやるAdvent Calendarたち。
+* ひとりでやる Advent Calendar たち。
 * 年度を見ればいつまとめた知見かが分かる。
 * 25個も記事書くことになるので、それなりにまとまった情報になる(ハズ)。
 
-* [2019/12 GameplayTag AdventCalendar](./ac/2019-GameplayTag/)
+* [2019/12: UE4 GameplayTag Advent Calendar](./ac/2019-GameplayTag/)
 
 <!--
 
