@@ -27,16 +27,16 @@
 
 ### タグたちをプロジェクトに登録する
 
-* ProjectSettings の `GameplayTags` セクションを選択。  
+* ProjectSettings の GameplayTags セクションを選択。  
 ![ProjectSettings-ChooseSection](./Images/Day01_ProjectSettings_ChooseSection.png)
-* `Gameplay Tag Table List` に、作成した DataTable たちを追加する。
+* Gameplay Tag Table List に、作成した DataTable たちを追加する。
 ![ProjectSettings-AddDataTable](./Images/Day01_ProjectSettings-AddDataTable.gif)
 
 ### GameplayTagを使ってみる
 
 * ItemSpawner がスポーンするアイテムの種類を、GameplayTag 型プロパティで選べるようにする。  
 ![Property](./Images/Day01_Property.gif)
-* ダメージの種類で処理を変える。階層化された `Damage.Attack` グループだけを判別することもできる。  
+* ダメージの種類で処理を変える。階層化された Damage.Attack グループだけを判別することもできる。  
 ![EventGraph](./Images/Day01_EventGraph.png)
 
 ## これだけ？
@@ -48,7 +48,7 @@
 
 ## 次回予告
 
-* 02日目: `タグといえば: ActorTag, ComponentTagとの違い(準備中)`
+* [02日目: タグといえば: Actor Tags, Component Tags との違い](./Day02-VsActorOrComponentTags.md)
 
 ---
 

@@ -14,7 +14,7 @@
 ### 1週目: GameplayTagを知ってみる
 
 * [01日目: GameplayTag: まずはざっくり見てみる](./Day01-Overview.md)
-* 02日目: タグといえば: ActorTag, ComponentTag との違い
+* [02日目: タグといえば: Actor Tags, Component Tags との違い](./Day02-VsActorOrComponentTags.md)
 * 03日目: じゃあ、enum とはどう違うの？どう使い分けよう？
 * 04日目: 使用するタグを登録する
 * 05日目: タグ登録、うっかりこうするとどうなるの？
