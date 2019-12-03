@@ -10,7 +10,7 @@
 ![Enum](./Images/Day03_Enum_Definition.png)
 * ここでは、名前しか見えないが、内部ではそれぞれが数値(0, 1, 2, 3, 4, …)として扱われる。
 * また、enum には bitflag という表現もあり、複数の定数の足し合わせによって複数の状態を1つの変数で表現できる。  
-![BitFlag Definition](./Images/Day03_BitFlag_Definition.gif)  
+![BitFlag Definition](./Images/Day03_Bitflag_Definition.gif)  
 ![BitFlag Variable](./Images/Day03_Bitflag_ApplyToVariable.gif)
 * 例えば、↑ `E_PlayerDebuffFlag` 型のような、「眠り かつ 毒」といった状態を表現できる。
     * この場合、内部の数値が、それぞれ2の累乗(0, 1, 2, 4, 8, …)で扱われる。
