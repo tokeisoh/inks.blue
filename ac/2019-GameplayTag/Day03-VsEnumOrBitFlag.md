@@ -13,7 +13,7 @@
 ![BitFlag Definition](./Images/Day03_Bitflag_Definition.gif)  
 ![BitFlag Variable](./Images/Day03_Bitflag_ApplyToVariable.gif)
 * 例えば、↑ `E_PlayerDebuffFlag` 型のような、「眠り かつ 毒」といった状態を表現できる。
-    * この場合、内部の数値が、それぞれ2の累乗(0, 1, 2, 4, 8, …)で扱われる。
+    * この場合、内部の数値が、それぞれ2の累乗(~~0,~~ 1, 2, 4, 8, …)で扱われる。
 
 ## GameplayTag とはどう違うの？
 
