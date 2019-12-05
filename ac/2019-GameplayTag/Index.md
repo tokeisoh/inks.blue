@@ -17,9 +17,9 @@
 * [02日目: タグといえば: Actor Tags, Component Tags との違い](./Day02-VsActorOrComponentTags.md)
 * [03日目: じゃあ、enum とはどう違うの？どう使い分けよう？](./Day03-VsEnumOrBitFlag.md)
 * [04日目: 使用するタグをプロジェクトへ登録する](./Day04-AddTagsToProject.md)
-* 05日目: タグの定義と登録、こうするとどうなるの？
-* 06日目: タグを CSV で管理する
-* 07日目: タグを JSON で管理する
+* [05日目: タグを CSV で管理する](./Day05-ManageDataTableWithCSV.md)
+* 06日目: タグを JSON で管理する
+* 07日目: タグの定義と登録、こうするとどうなるの？
 
 ### 2週目: GameplayTagを使ってみる
 
