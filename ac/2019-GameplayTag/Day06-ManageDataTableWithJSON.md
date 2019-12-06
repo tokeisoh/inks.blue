@@ -16,7 +16,7 @@
 ![ExportedJSON_VSCode_UTF16LE](./Images/Day06_ExportedJSON_VSCode_UTF16LE.png)
 * あれっやっぱり UTF-16 LE なの？
 * JSON って確か、BOM なし UTF-8 縛りじゃなかったっけ…って思って調べてみた。
-* [→ 閉じたエコシステムでなければ、UTF-8 で。ネットワーク送信される JSON は、BOM なし。](https://tools.ietf.org/html/rfc8259)
+* [→ 閉じたエコシステムでなければ、UTF-8 にしてね。ネットワーク送信される JSON は、BOM なしで。](https://tools.ietf.org/html/rfc8259)
 * ふむ。ネットワーク送信するわけではないけど、試しに UTF-8 BOM なしにしてインポートしてみよう。  
 ![ImportedJSON_UTF8](./Images/Day06_ImportedJSON_UTF8.png)
 * CSV のときと同様、問題なさそう。
