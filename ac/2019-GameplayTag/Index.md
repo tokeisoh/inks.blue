@@ -18,7 +18,7 @@
 * [03日目: じゃあ、enum とはどう違うの？どう使い分けよう？](./Day03-VsEnumOrBitFlag.md)
 * [04日目: 使用するタグをプロジェクトへ登録する](./Day04-AddTagsToProject.md)
 * [05日目: タグを CSV で管理する](./Day05-ManageDataTableWithCSV.md)
-* 06日目: タグを JSON で管理する
+* [06日目: タグを JSON で管理する](./Day06-ManageDataTableWithJSON.md)
 * 07日目: タグの定義と登録、こうするとどうなるの？
 
 ### 2週目: GameplayTagを使ってみる
