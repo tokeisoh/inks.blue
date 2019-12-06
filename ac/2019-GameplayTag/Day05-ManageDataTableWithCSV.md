@@ -53,7 +53,7 @@
 
 ## 次回予告
 
-* 06日目: タグを JSON で管理する
+* [06日目: タグを JSON で管理する](./Day06-ManageDataTableWithJSON.md)
 
 ---
 
