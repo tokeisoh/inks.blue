@@ -70,11 +70,11 @@
 ## あ。スペースは…
 
 * これまでの感じだと、他の文字の間にスペースが入る分には大丈夫そう。
-* スペースだけだとどうなるかな…恐る恐る `" .  .  .    "` というタグを入れてみる。  
+* スペースだけだとどうなるかな…恐る恐る "&nbsp;.&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;" というタグを入れてみる。  
 ![AddSpacesIntoProject](./Images/Day07_AddSpacesIntoProject.png)
 * ！ 階層開くやつ "▷" がない！なんかエラーでてる！  
 `LogGameplayTags: Error: Invalid tag .  .   .     from source /(中略)/DT_GameplayTag_VariousCharacters: Tag ends with space! Replacing with .  .   ., you may need to modify InvalidTagCharacters`
-* スペースで終わるタグはアウトなのか。でも `".  .   .    "` が `".  .   ."` って、中間のタグは許されてるな…
+* スペースで終わるタグはアウトなのか。でも ".&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;" が ".&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;." って、中間のタグは許されてるな…
 * あれっ先頭のスペースどこ行った！？  
 ![AddABCWithSpaces](./Images/Day07_AddABCWithSpaces.gif)
 * 先頭のスペース、消されてる！末尾のは消されないな。
