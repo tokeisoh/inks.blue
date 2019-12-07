@@ -19,13 +19,13 @@
 * [04日目: 使用するタグをプロジェクトへ登録する](./Day04-AddTagsToProject.md)
 * [05日目: タグを CSV で管理する](./Day05-ManageDataTableWithCSV.md)
 * [06日目: タグを JSON で管理する](./Day06-ManageDataTableWithJSON.md)
-* 07日目: タグの定義と登録、こうするとどうなるの？
+* [07日目: タグの定義と登録、こうするとどうなるの？](./Day07-RegisterTagsWithErrors.md)
 
 ### 2週目: GameplayTagを使ってみる
 
 * 08日目: GameplayTag と GameplayTag を比較する
 * 09日目: GameplayTagContainer に含まれる GameplayTag を調べる
-* 10日目: GameplayTagContainer と ameplayTagContainer を比較する
+* 10日目: GameplayTagContainer と GameplayTagContainer を比較する
 * 11日目: GameplayTag か、GameplayTagContainer か、GameplayTag の配列
 * 12日目: Object や Actor に GameplayTag 情報を保持させる
 * 13日目: GameplayTag 値とフロー
