@@ -73,7 +73,7 @@
 * スペースだけだとどうなるかな…恐る恐る "&nbsp;.&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;" というタグを入れてみる。  
 ![AddSpacesIntoProject](./Images/Day07_AddSpacesIntoProject.png)
 * ！ 階層開くやつ "▷" がない！なんかエラーでてる！  
-`LogGameplayTags: Error: Invalid tag .  .   .     from source /(中略)/DT_GameplayTag_VariousCharacters: Tag ends with space! Replacing with .  .   ., you may need to modify InvalidTagCharacters`
+"LogGameplayTags: Error: Invalid tag .&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp; from source /(中略)/DT_GameplayTag_VariousCharacters: Tag ends with space! Replacing with .&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;., you may need to modify InvalidTagCharacters"
 * スペースで終わるタグはアウトなのか。でも ".&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;" が ".&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;." って、中間のタグは許されてるな…
 * あれっ先頭のスペースどこ行った！？  
 ![AddABCWithSpaces](./Images/Day07_AddABCWithSpaces.gif)
