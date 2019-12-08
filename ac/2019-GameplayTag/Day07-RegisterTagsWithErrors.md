@@ -83,7 +83,7 @@
 
 ## 次回予告
 
-* 08日目: GameplayTag と GameplayTag を比較する
+* [08日目: GameplayTag と GameplayTag を比較する](./Day08-CompareGameplayTags.md)
 
 ---
 
