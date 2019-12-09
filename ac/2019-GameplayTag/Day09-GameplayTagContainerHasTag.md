@@ -22,7 +22,7 @@
 
 ## 次回予告
 
-* 09日目: GameplayTagContainer に含まれる GameplayTag を調べる
+* 10日目: GameplayTagContainer と GameplayTagContainer を比較する
 
 ---
 
