@@ -24,9 +24,9 @@
 ### 2週目: GameplayTagを使ってみる
 
 * [08日目: GameplayTag と GameplayTag を比較する](./Day08-CompareGameplayTags.md)
-* [09日目: GameplayTagContainer に含まれる GameplayTag を調べる](Day09-GameplayTagContainerHasTag.md)
-* 10日目: GameplayTagContainer と GameplayTagContainer を比較する
-* 11日目: GameplayTag か、GameplayTagContainer か、GameplayTag の配列か
+* [09日目: GameplayTagContainer に含まれる GameplayTag を調べる](./Day09-GameplayTagContainerHasTag.md)
+* [10日目: もっと GameplayTag, GameplayTagContainer を調べる](./Day10-AnotherNodesForGameplayTagAndContainer.md)
+* 11日目: GameplayTagQuery で GameplayTagContainer を調べる
 * 12日目: Object や Actor に GameplayTag 情報を保持させる
 * 13日目: GameplayTag 値とフロー
 * 14日目: C++ との受け渡し

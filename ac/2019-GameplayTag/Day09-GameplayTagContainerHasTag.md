@@ -13,16 +13,16 @@
 
 * GameplayTagContainer が、`Tag` を満たすタグを保持しているか。
 * すなわち、`Tag` そのもの or `Tag` の子孫であるタグを、GameplayTagContainerが保持しているなら、`true` になる。  
-![Day09_HasTag](./Images/Day09_HasTag.png)
+![HasTag](./Images/Day09_HasTag.png)
 
 ## HasTag (Exact Match == true)
 
 * GameplayTagContainer が、`Tag` と完全一致するタグを保持しているか。  
-![Day09_HasExactMatchedTag](./Images/Day09_HasExactMatchedTag.png)
+![HasExactMatchedTag](./Images/Day09_HasExactMatchedTag.png)
 
 ## 次回予告
 
-* 10日目: GameplayTagContainer と GameplayTagContainer を比較する
+* [10日目: もっと GameplayTag, GameplayTagContainer を調べる](./Day10-AnotherNodesForGameplayTagAndContainer.md)
 
 ---
 
