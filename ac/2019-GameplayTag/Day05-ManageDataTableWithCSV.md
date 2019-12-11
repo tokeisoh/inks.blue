@@ -38,6 +38,7 @@
 ![FailedToReimport](./Images/Day05_FailedToReimport.png)
 * Oh...
 * インポートする CSV ファイルを Excel で開きっぱなしだとこうなる。
+    * __→ UE4.24 から、Excel で開きっぱなしの CSV もエラーなくインポートできるようになりました！__
 * というわけで、Excel をいったん閉じて、気を取り直してもう一回！  
 ![ImportedCSV_ShiftJIS](./Images/Day05_ImportedCSV_ShiftJIS.png)
 * Oh...
