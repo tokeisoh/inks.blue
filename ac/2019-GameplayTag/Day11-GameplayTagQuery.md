@@ -7,7 +7,7 @@
 
 * [10日目](./Day10-AnotherNodesForGameplayTagAndContainer.md) よりさらに複雑な判定を、1つのノードにまとめたい！流用したい！
 * そんなあなたに、GameplayTagQuery.
-* DoesContainerMatchTagQuery ノードを使って、GameplayTagContainerが条件を満たすか調べる。  
+* Does Container Match Tag Query ノードを使って、GameplayTagContainerが条件を満たすか調べる。  
 ![DoesContainerMatchTagQuery](./Images/Day11_DoesContainerMatchTagQuery.png)
 * Any (いずれかを満たす)、All (すべてを満たす)、No (いずれも異なる) を好きなだけ組み合わせられる。
 ![GameplayTagQuery](./Images/Day11-GameplayTagQuery.png)  
