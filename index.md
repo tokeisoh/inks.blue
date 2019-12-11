@@ -10,7 +10,7 @@
 * 年度を見ればいつまとめた知見かが分かる。
 * 25個も記事書くことになるので、それなりにまとまった情報になる(ハズ)。
 
-* [2019/12: UE4 GameplayTag Advent Calendar](./ac/2019-GameplayTag/)
+* [2019/12: UE4 GameplayTag Advent Calendar](./ac/2019-GameplayTag/Index.md)
 
 <!--
 
