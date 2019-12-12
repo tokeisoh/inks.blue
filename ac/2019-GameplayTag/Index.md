@@ -27,8 +27,8 @@
 * [09日目: GameplayTagContainer に含まれる GameplayTag を調べる](./Day09-GameplayTagContainerHasTag.md)
 * [10日目: もっと GameplayTag, GameplayTagContainer を調べる](./Day10-AnotherNodesForGameplayTagAndContainer.md)
 * [11日目: GameplayTagQuery で GameplayTagContainer を調べる](./Day11-GameplayTagQuery.md)
-* 12日目: Object や Actor に GameplayTag 情報を保持させる
-* 13日目: GameplayTag 値とフロー
+* [12日目: Object や Actor に GameplayTag 情報を持たせてみる](./Day12-GameplayTagAsProperty.md)
+* 13日目: GameplayTag 情報を使って、処理を行う
 * 14日目: C++ との受け渡し
 
 ### 3週目: GameplayTagを運用してみる
