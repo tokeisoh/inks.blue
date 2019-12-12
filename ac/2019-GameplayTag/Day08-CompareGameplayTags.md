@@ -24,7 +24,7 @@
 
 ## 次回予告
 
-* [09日目: GameplayTagContainer に含まれる GameplayTag を調べる](.Day09-GameplayTagContainerHasTag.md)
+* [09日目: GameplayTagContainer に含まれる GameplayTag を調べる](Day09-GameplayTagContainerHasTag.md)
 
 ---
 
