@@ -64,6 +64,7 @@
 
 [GameplayTagを運用してみる]
 1. GameplayTag値と文字列を相互に変換する
+    * GameplayTagを文字列から: C++ static FGameplayTag::RequestGameplayTag() をラップする。
 1. FGameplayTagの中身はどうなってるの？
     * 変数上のサイズ FGameplayTag シリアライズされたらどうなるの
     * ネットワーク通信時のサイズ、扱い

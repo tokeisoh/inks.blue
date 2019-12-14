@@ -12,6 +12,8 @@
 * Any (いずれかを満たす)、All (すべてを満たす)、No (いずれも異なる) を好きなだけ組み合わせられる。
 ![GameplayTagQuery](./Images/Day11-GameplayTagQuery.png)  
 * また、分岐の分岐(`if` 内の `if` のようなもの)を作ることもできる。
+* なお、それぞれのタグ判定方法は、これまで見てきたノードの `Exact Match == false` の方になる。  
+![GameplayTagQueryNotExactMatch](./Images/Day11_GameplayTagQueryNotExactMatch.png)
 
 ## とてもとても複雑なタグ条件がいろんなところで必要になったが…
 
@@ -23,7 +25,7 @@
 
 ## 次回予告
 
-* [12日目: Object や Actor に GameplayTag 情報を持たせる](./Day12-GameplayTagAsProperty.md)
+* [12日目: GameplayTag 型のプロパティ](./Day12-GameplayTagAsProperty.md)
 
 ---
 
