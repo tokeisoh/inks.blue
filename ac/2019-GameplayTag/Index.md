@@ -28,7 +28,7 @@
 * [10日目: もっと GameplayTag, GameplayTagContainer を調べる](./Day10-AnotherNodesForGameplayTagAndContainer.md)
 * [11日目: GameplayTagQuery で GameplayTagContainer を調べる](./Day11-GameplayTagQuery.md)
 * [12日目: GameplayTag 型のプロパティ](./Day12-GameplayTagAsProperty.md)
-* [13日目: GameplayTag 情報を使って、処理を行う](./Day13-FlowWithGameplayTag.md)
+* [13日目: Switch と GameplayTagAssetInterface](./Day13-SwitchAndGameplayTagAssetInterface.md)
 * [14日目: GameplayTag と文字列を相互に変換する](./Day14-ConvertFromOrToString.md)
 
 ### 3週目: GameplayTagを運用してみる

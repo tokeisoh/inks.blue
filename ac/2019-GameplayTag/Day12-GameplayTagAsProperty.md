@@ -1,4 +1,4 @@
-# 12日目: Object や Actor に GameplayTag 情報を持たせてみる
+# 12日目: GameplayTag 型のプロパティ
 
 > [UE4 GameplayTag Advent Calendar 2019 12日目](https://qiita.com/advent-calendar/2019/ue4-gameplaytag)  
 >#UE4Study #UE4.23 #UnrealEngine #GameplayTag
@@ -44,7 +44,7 @@
 
 ## 次回予告
 
-* 13日目: GameplayTag 情報を使って、処理を行う
+* [13日目: Switch と GameplayTagAssetInterface](./Day13-SwitchAndGameplayTagAssetInterface.md)
 
 ---
 
