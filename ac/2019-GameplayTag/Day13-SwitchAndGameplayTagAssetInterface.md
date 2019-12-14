@@ -6,14 +6,14 @@
 # Switch on GameplayTag, GameplayTagContainer
 
 * Switch on Gameplay Tag ノードと、Switch on Gameplay Tag Container ノードがある。
-* いずれも、"Exact Match" な条件のところにのみ、処理が流れる。
+* いずれも、Exact Match == true な条件のところにのみ、処理が流れる。
 * Switch on Gameplay Tag Container では、Container に含まれるタグすべてが一致する条件のところに処理が流れる。  
 つまり、"Has All (Exact Match == true)" で分岐することになる。
 ![SwitchOnGameplayTag](./Images/Day13_SwitchOnGameplayTag.png)
 
 # 特定のタグ条件を満たす Actor を見つけたい
 
-* [2日目](./Day02-VsActorOrComponentTags.md) に紹介したような、Get All～ 系のノードは、GameplayTagQuery を使うものだけが用意されている:  
+* [2日目](./Day02-VsActorOrComponentTags.md) に紹介したような、Get All Actors～ 系のノードは、GameplayTagQuery を使うものだけが用意されている:  
 ![GetAllActorsOfClassMatchingTagQuery](./Images/Day13_GetAllActorsOfClassMatchingTagQuery.png)
 * この Get All Actors Of Class Matching Tag Query を使って調べられるのは、IGameplayTagAssetInterface を実装している Actor のみっぽい。
 * ん？IGameplayTagAssetInterface…？  
