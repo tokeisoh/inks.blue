@@ -27,7 +27,7 @@
 * [09日目: GameplayTagContainer に含まれる GameplayTag を調べる](./Day09-GameplayTagContainerHasTag.md)
 * [10日目: もっと GameplayTag, GameplayTagContainer を調べる](./Day10-AnotherNodesForGameplayTagAndContainer.md)
 * [11日目: GameplayTagQuery で GameplayTagContainer を調べる](./Day11-GameplayTagQuery.md)
-* [12日目: Object や Actor に GameplayTag 情報を持たせる](./Day12-GameplayTagAsProperty.md)
+* [12日目: GameplayTag 型のプロパティ](./Day12-GameplayTagAsProperty.md)
 * [13日目: GameplayTag 情報を使って、処理を行う](./Day13-FlowWithGameplayTag.md)
 * [14日目: GameplayTag と文字列を相互に変換する](./Day14-ConvertFromOrToString.md)
 

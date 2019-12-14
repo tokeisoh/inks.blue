@@ -23,7 +23,7 @@
 
 ## 次回予告
 
-* [12日目: Object や Actor に GameplayTag 情報を持たせる](./Day12-GameplayTagAsProperty.md)
+* [12日目: GameplayTag 型のプロパティ](./Day12-GameplayTagAsProperty.md)
 
 ---
 

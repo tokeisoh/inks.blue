@@ -11,7 +11,7 @@
 
 # String → GameplayTag
 
-* Blueprint 上では、文字列を GameplayTag に変換する方法はない。
+* Blueprint 上では、文字列を GameplayTag に変換する方法はない。残念。
 * C++ で FGameplayTag::RequestGameplayTag() 関数をラップしてバインドすると、Blueprint からも使えるようになる。
 ```
 FGameplayTag UGameplayTagFunctionLibrary::GetGameplayTagFromString(const FString& InString)
