@@ -9,8 +9,7 @@
 
 # Actor を探す
 
-* IGameplayTagAssetInterface を使えば！
-* 全 Actor から探すというのは大規模プロジェクトではやりにくいけれど、
+* GameplayTagAssetInterface を使えば！
 
 
 # Switch
