@@ -28,14 +28,14 @@
 * [10日目: もっと GameplayTag, GameplayTagContainer を調べる](./Day10-AnotherNodesForGameplayTagAndContainer.md)
 * [11日目: GameplayTagQuery で GameplayTagContainer を調べる](./Day11-GameplayTagQuery.md)
 * [12日目: Object や Actor に GameplayTag 情報を持たせる](./Day12-GameplayTagAsProperty.md)
-* 13日目: GameplayTag 情報を使って、処理を行う
-* 14日目: C++ との受け渡し
+* [13日目: GameplayTag 情報を使って、処理を行う](./Day13-FlowWithGameplayTag.md)
+* [14日目: GameplayTag と文字列を相互に変換する](./Day14-ConvertFromOrToString.md)
 
 ### 3週目: GameplayTagを運用してみる
 
-* 15日目: GameplayTag 値と文字列を相互に変換する
-* 16日目: FGameplayTag の中身はどうなってるの？
-* 17日目: AssetUserTag でアセットに GameplayTag 情報を付加してみる
+* 15日目: AssetUserTag: アセットに GameplayTag 情報を付加してみる
+* 16日目: FGameplayTag, FGameplayTagContainer の中身はどうなってるの？
+* 17日目: ネットワークでのやりとり
 * 18日目: GameplayTag 使用箇所の検索性
 * 19日目: GameplayTag 使用していたタグを変更or削除してしまったらどうなる？
 * 20日目: リファクタによるタグ名変更を安全に行うには

@@ -31,7 +31,8 @@
     * 例えば、「`Item` と指定して削除したら、`Item.AddHP.Low` とか `Item.SpeedUp` とかを全部削除」はできない。
 * GameplayTagContainer 型のままでは、保持するタグを直接知ることはできない。
     * 「このタグ持ってる？」は調べられるけど、「具体的にどんなタグ持ってる？」は直接は調べられない。
-    * 知るためには、Break GameplayTag Container を使って、GameplayTag の配列を取得する必要がある。  
+    * 「`Item` 以下のタグ持ってる？」は調べられるけど、「`Item` 以下のタグいくつある？」は直接は調べられない。
+    * 知るためには、Break GameplayTag Container ノードを使って、GameplayTag の配列を取得する必要がある。  
     ![Day12_BreakGameplayTagContainer](./Images/Day12_BreakGameplayTagContainer.png)
     * GameplayTagContainer は内部で配列としてタグ情報を持っている。その「コピー」を取得することになる。
     * 何度も何度も配列化が必要になる場合は、GameplayTag Array 型のプロパティにしておく方が使い勝手がいいかもしれない。
