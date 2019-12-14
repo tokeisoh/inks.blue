@@ -5,9 +5,25 @@
 
 # GameplayTag → String
 
+* Get Tag Name ノードを使うと、Name 型の文字列に変換できる。
+* そこから To String すれば、String 型の文字列も取得できる。  
+![GameplayTagToString](./Images/Day14_GameplayTagToString.png)
+
 # String → GameplayTag
 
-* GameplayTagを文字列から: C++ static FGameplayTag::RequestGameplayTag() をラップする。
+* Blueprint 上では、文字列を GameplayTag に変換する方法はない。
+* C++ で FGameplayTag::RequestGameplayTag() 関数をラップしてバインドすると、Blueprint からも使えるようになる。
+```
+FGameplayTag UGameplayTagFunctionLibrary::GetGameplayTagFromString(const FString& InString)
+{
+	const bool ErrorIfNotFound = false;
+	
+	// ErrorIfNotFound = false の場合、GameplayTag が見つからなければ、空タグを返す。
+    //                   true の場合、GameplayTag が見つからなければ、実行時エラーになる。
+	return FGameplayTag::RequestGameplayTag(FName(*InString), ErrorIfNotFound);
+}
+```
+![GetGameplayTagFromString](./Images/Day14_GetGameplayTagFromString.png)
 
 ## 次回予告
 
