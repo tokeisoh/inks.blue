@@ -33,7 +33,7 @@
 
 ### 3週目: GameplayTagを運用してみる
 
-* 15日目: AssetUserTag: アセットに GameplayTag 情報を付加してみる
+* [15日目: AssetUserTag: アセットに GameplayTag 情報を付加してみる](./Day15-GameplayTagOnAssetUserData.md)
 * 16日目: FGameplayTag, FGameplayTagContainer の中身はどうなってるの？
 * 17日目: ネットワークでのやりとり
 * 18日目: GameplayTag 使用箇所の検索性
