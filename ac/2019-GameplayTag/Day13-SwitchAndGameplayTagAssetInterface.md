@@ -36,7 +36,7 @@
 * というわけで、Blueprint only で実装する Actor では、GameplayTagAssetInterface が実装できない。
 * Get All Actors～ はもちろん、例えばこういう処理でも対象 Actor にならない。  
 ![HasMatchingGameplayTag](./Images/Day13_HasMatchingGameplayTag.png)
-* ので、具体的な型にキャストして直接プロパティを調べるか、独自のインタフェースを作成し、それを実装する必要がある。
+* ので、具体的な型にキャストして直接プロパティを調べるか、独自の Blueprint インタフェースを作成し、それを実装する必要がある。
 * 汎用的なインタフェースにするなら、GameplayTagAssetInterface を参考にするとよさそう。
 
 ## 次回予告
