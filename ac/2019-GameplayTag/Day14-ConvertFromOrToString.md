@@ -27,7 +27,7 @@ FGameplayTag UGameplayTagFunctionLibrary::GetGameplayTagFromString(const FString
 
 ## 次回予告
 
-* 15日目: AssetUserTag: アセットに GameplayTag 情報を付加してみる
+* [15日目: AssetUserData: アセットに GameplayTag 情報を付加してみる](./Day15-GameplayTagOnAssetUserData.md)
 
 ---
 
