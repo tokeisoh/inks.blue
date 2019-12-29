@@ -35,7 +35,7 @@
 
 * [15日目: AssetUserData: アセットに GameplayTag 情報を付加してみる](./Day15-GameplayTagOnAssetUserData.md)
 * [16日目: FGameplayTag の中身はどうなってるの？](./Day16-FGameplayTag.md)
-* 17日目: FGameplayTagContainer の中身はどうなってるの？
+* [17日目: FGameplayTagContainer の中身はどうなってるの？](./Day17-FGameplayTagContainer.md)
 * 18日目: GameplayTag のネットワークでのやりとり
 * 19日目: GameplayTag 使用箇所の検索性
 * 20日目: GameplayTag 使用していたタグを変更or削除してしまったらどうなる？
