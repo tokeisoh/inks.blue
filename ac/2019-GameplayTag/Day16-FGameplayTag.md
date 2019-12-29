@@ -3,14 +3,13 @@
 > [UE4 GameplayTag Advent Calendar 2019 16日目](https://qiita.com/advent-calendar/2019/ue4-gameplaytag)  
 >#UE4Study #UE4.23 #UnrealEngine #GameplayTag
 
-# GameplayTag, GameplayTagContainer はどう定義されているのか？
+# GameplayTag はどう定義されているのか？
 
-* GameplayTag, GameplayTagContainer は、C++ 上で定義されている。
+* GameplayTag は、C++ 上で定義されている。
     * GameplayTag (Blueprint) ← FGameplayTag (C++)
-    * GameplayTagContainer (Blueprint) ← FGameplayTagContainer (C++)
 * ["F" ということは、その他扱い？](https://docs.unrealengine.com/ja/Programming/Introduction/index.html#クラス名のプレフィックス)
-* C++ 側での実体はどうなっているのか？メンバ変数構成はどうなっているのか？
-* FGameplayTag, FGameplayTagContainer ともに、下記のソースコードに定義されている:
+* C++ 側での実体はどうなっているのか？メンバ構成はどうなっているのか？
+* FGameplayTag は下記のソースコードに定義されている:  
 `Engine/Source/Runtime/GameplayTags/Classes/GameplayTagContainer.h` 
 
 # FGameplayTag の実体
