@@ -33,13 +33,14 @@
 
 ### 3週目: GameplayTagを運用してみる
 
-* [15日目: AssetUserTag: アセットに GameplayTag 情報を付加してみる](./Day15-GameplayTagOnAssetUserData.md)
-* 16日目: FGameplayTag, FGameplayTagContainer の中身はどうなってるの？
-* 17日目: ネットワークでのやりとり
-* 18日目: GameplayTag 使用箇所の検索性
-* 19日目: GameplayTag 使用していたタグを変更or削除してしまったらどうなる？
-* 20日目: リファクタによるタグ名変更を安全に行うには
-* 21日目: 不正なタグ名、定義にないタグ名使用箇所を検出するには
+* [15日目: AssetUserData: アセットに GameplayTag 情報を付加してみる](./Day15-GameplayTagOnAssetUserData.md)
+* [16日目: FGameplayTag の中身はどうなってるの？](./Day16-FGameplayTag.md)
+* 17日目: FGameplayTagContainer の中身はどうなってるの？
+* 18日目: GameplayTag のネットワークでのやりとり
+* 19日目: GameplayTag 使用箇所の検索性
+* 20日目: GameplayTag 使用していたタグを変更or削除してしまったらどうなる？
+* 21日目: リファクタによるタグ名変更を安全に行うには
+<!-- * 21日目: 不正なタグ名、定義にないタグ名使用箇所を検出するには: 21日目に含める予定 -->
 
 ### 4週目: GameplayTagで作ってみる
 
