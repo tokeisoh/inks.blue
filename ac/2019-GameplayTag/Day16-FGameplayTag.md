@@ -27,19 +27,19 @@
 # FGameplayTag の C++ only な機能 (目についたもの)
 
 * static定数: 空タグを表す定数。  
-`static const FGameplayTag EmptyTag`
+    * `static const FGameplayTag EmptyTag`
 * static関数: Name 型から GameplayTag へ変換する関数。[14日目を参照。](./Day14-ConvertFromOrToString.md)  
-`static FGameplayTag RequestGameplayTag(FName TagName, 略)`
+    * `static FGameplayTag RequestGameplayTag(FName TagName, 略)`
 * static関数: GameplayTag として Valid な文字列か。  
-`static bool IsValidGameplayTagString(const FString& TagString, 略)`
+    * `static bool IsValidGameplayTagString(const FString& TagString, 略)`
 * instance関数: もう1つの GameplayTag が何階層まで一致しているか。  
-`int32 MatchesTagDepth(const FGameplayTag& TagToCheck) const`
+    * `int32 MatchesTagDepth(const FGameplayTag& TagToCheck) const`
 * instance関数: 直接の親階層を表す GameplayTag を取得する。  
-`FGameplayTag RequestDirectParent() const`
+    * `FGameplayTag RequestDirectParent() const`
 * この GameplayTag と、その親＆先祖タグを含むコンテナ「への参照」を取得する。
-`const FGameplayTagContainer& GetSingleTagContainer() const`
+    * `const FGameplayTagContainer& GetSingleTagContainer() const`
 * この GameplayTag の、親＆先祖タグを含むコンテナ「のコピー」を取得する。
-`FGameplayTagContainer GetGameplayTagParents() const`
+    * `FGameplayTagContainer GetGameplayTagParents() const`
 
 # 備考
 

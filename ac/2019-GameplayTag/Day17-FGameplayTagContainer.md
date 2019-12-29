@@ -24,13 +24,13 @@
 # FGameplayTagContainer の C++ only な機能 (目についたもの)
 
 * static定数: 空のコンテナ。  
-`static const FGameplayTagContainer EmptyContainer`
+    * `static const FGameplayTagContainer EmptyContainer`
 * instance関数: 今の FGameplayTagContainer に含まれるタグ「と」、その親タグすべてを含む FGameplayTagContainer を取得する。  
-`FGameplayTagContainer GetGameplayTagParents() const`
+    * `FGameplayTagContainer GetGameplayTagParents() const`
 * instance関数: `TagToAdd` を追加し、その親タグや先祖タグがあれば取り除く。`TagToAdd` の子孫タグがすでに存在するなら、追加しない。  
-`bool AddLeafTag(const FGameplayTag& TagToAdd)`
+    * `bool AddLeafTag(const FGameplayTag& TagToAdd)`
 * instance関数: 配列の Index を指定してタグを取得する。  
-`FGameplayTag GetByIndex(int32 Index) const`
+    * `FGameplayTag GetByIndex(int32 Index) const`
 
 # 備考
 
