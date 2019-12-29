@@ -32,6 +32,11 @@
 * instance関数: 配列の Index を指定してタグを取得する。  
 `FGameplayTag GetByIndex(int32 Index) const`
 
+# 備考
+
+* いくつか動作を検証しておきたいものがあったけど、未検証。
+* のちのち試したら追記します。
+
 # UGameplayTagManager まで追いたいけど今回はパス
 
 * 機会があれば、記事追加します。

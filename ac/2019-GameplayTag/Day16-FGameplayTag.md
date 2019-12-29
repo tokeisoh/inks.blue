@@ -41,6 +41,11 @@
 * この GameplayTag の、親＆先祖タグを含むコンテナ「のコピー」を取得する。
 `FGameplayTagContainer GetGameplayTagParents() const`
 
+# 備考
+
+* いくつか動作を検証しておきたいものがあったけど、未検証。
+* のちのち試したら追記します。
+
 ## 次回予告
 
 * [17日目: FGameplayTagContainer の中身はどうなってるの？](./Day17-FGameplayTagContainer.md)
