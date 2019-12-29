@@ -37,20 +37,14 @@
 `int32 MatchesTagDepth(const FGameplayTag& TagToCheck) const`
 * instance関数: 直接の親階層を表す GameplayTag を取得する。  
 `FGameplayTag RequestDirectParent() const`
-
-# メモ
-
-* この2つの意図が追えてない:
-```
-/** Returns reference to a GameplayTagContainer containing only this tag */
-	const FGameplayTagContainer& GetSingleTagContainer() const;
-/** Returns a new container explicitly containing the tags of this tag */
-	FGameplayTagContainer GetGameplayTagParents() const;
-```
+* この GameplayTag と、その親＆先祖タグを含むコンテナ「への参照」を取得する。
+`const FGameplayTagContainer& GetSingleTagContainer() const`
+* この GameplayTag の、親＆先祖タグを含むコンテナ「のコピー」を取得する。
+`FGameplayTagContainer GetGameplayTagParents() const`
 
 ## 次回予告
 
-* 17日目: FGameplayTagContainer の中身はどうなってるの？
+* [17日目: FGameplayTagContainer の中身はどうなってるの？](./Day17-FGameplayTagContainer.md)
 
 ---
 
