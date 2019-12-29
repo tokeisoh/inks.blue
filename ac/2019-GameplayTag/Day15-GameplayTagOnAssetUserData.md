@@ -43,7 +43,7 @@ AssetUserData 情報を付加したのは、Static Mesh なので。
 
 ## 次回予告
 
-* 16日目: FGameplayTag, FGameplayTagContainer の中身はどうなってるの？
+* [16日目: FGameplayTag の中身はどうなってるの？](./Day16-FGameplayTag.md)
 
 ---
 
