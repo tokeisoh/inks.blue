@@ -1,4 +1,4 @@
-# 18日目: GameplayTag のネットワークでのやりとり
+# 18日目: ネットワーク通信での GameplayTag
 
 > [UE4 GameplayTag Advent Calendar 2019 18日目](https://qiita.com/advent-calendar/2019/ue4-gameplaytag)  
 >#UE4Study #UE4.23 #UnrealEngine #GameplayTag
@@ -7,7 +7,6 @@
 
 * UE4では、変数の型によって、レプリケート(ネットワーク通信によるサーバ-クライアント間複製)できる型とできない型がある。
 * GameplayTag はレプリケートできる。すなわち、`FGameplayTag::NetSerialize()` が実装されている。
-* GameplayTagContainer もレプリケートできる。
 * つまり、サーバークライアント間の情報伝達媒体として、GameplayTag を使うことができる。
 
 # レプリケート時のサイズは？
@@ -15,16 +14,25 @@
 * 16日目に見たように、GameplayTag の実体は FName である。
 * FName の実体は、uint32 が2つだった。FName のレプリケートはどうなっている？
     * [NetGUIDを作って、最初だけNetGUIDと文字列そのものを送ってる？](https://twitter.com/mkaech/status/1149712274589753344)
-    * ってあるけど、特定の固有名以外は、毎回文字列送ってるような… `UPackageMap::StaticSerializeName()`
-    * キャプチャして調べたい
-* で、肝心の GameplayTag はどうなっているか？ → 2パターンのいずれかが送られている。
-    * タグをFNameで送信。
-    * タグを数値化 (uint32 x1) して送信。ただし、頻繁に使われるタグを、より低コストに送信するための仕組みがある。
-    * `SerializeTagNetIndexPacked()` コメント部分を参照。
+    * ってあるけど、エンジンで予約してる固有名以外は、毎回文字列送ってるような…  
+    `CoreNet.cpp: UPackageMap::StaticSerializeName()` あたり。
+* で、肝心の GameplayTag はどうなっているか？
+* なにも設定しなければ、GameplayTag 値は、FName として文字列で送信されるぽい。
+    * CoreNet.cpp の 329行目、同じタグでも、複数回通る。ので、毎度文字列を送ってるっぽい。
+* [プロジェクト設定] - [GameplayTags] - [Fast Replication] にチェックを入れると、文字列の代わりに、数値 (uint32 x1) が送信される。
+    * 要は辞書のキーだけを送っていることになるので、送信元と送信先の GameplayTag 辞書が同一であることが前提と思われる。
+    * さらに、頻繁に送信するタグを、より低コストに送信するための仕組みがある。次項にて。
+
+# より高速にレプリケートするには？
+
+* `GameplayTagContainer.cpp: SerializeTagNetIndexPacked()` コメント部分より。
+    * 「頻繁に送信するタグ」を [プロジェクト設定] - [GameplayTags] - [Commonly Replicated Tags] にセットする。
+    * 「頻繁に送信するタグ」を表現するためのビット数を [Net Index First Bit Segment] に指定する。
+* これらは、コンソールコマンド `GameplayTags.PrintReport` or `GameplayTags.PrintReportOnShutdown 1` でプロファイルすると、それぞれオススメの値を出力してくれる。
 
 ## 次回予告
 
-* 19日目: GameplayTag 使用箇所の検索性
+* 19日目: ネットワーク通信での GameplayTagContainer
 
 ---
 
