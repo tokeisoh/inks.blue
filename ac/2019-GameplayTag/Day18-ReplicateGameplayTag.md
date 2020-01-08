@@ -5,8 +5,8 @@
 
 # そもそも、GameplayTag 型変数はレプリケートできるのか？
 
-* 変数の型によって、レプリケート(ネットワーク通信によるサーバ-クライアント間複製)できない型がある。
-* レプリケートできる。すなわち、`FGameplayTag::NetSerialize()` が実装されている。
+* UE4では、変数の型によって、レプリケート(ネットワーク通信によるサーバ-クライアント間複製)できる型とできない型がある。
+* GameplayTag はレプリケートできる。すなわち、`FGameplayTag::NetSerialize()` が実装されている。
 * GameplayTagContainer もレプリケートできる。
 * つまり、サーバークライアント間の情報伝達媒体として、GameplayTag を使うことができる。
 
@@ -14,11 +14,13 @@
 
 * 16日目に見たように、GameplayTag の実体は FName である。
 * FName の実体は、uint32 が2つだった。FName のレプリケートはどうなっている？
-    * エンジンコード読み込めてないこともあり、さらっと読める感じではなかった。無念。
-    * ~~FName Advent Calendar やるべきか~~
     * [NetGUIDを作って、最初だけNetGUIDと文字列そのものを送ってる？](https://twitter.com/mkaech/status/1149712274589753344)
-* GameplayTag
-
+    * ってあるけど、特定の固有名以外は、毎回文字列送ってるような… `UPackageMap::StaticSerializeName()`
+    * キャプチャして調べたい
+* で、肝心の GameplayTag はどうなっているか？ → 2パターンのいずれかが送られている。
+    * タグをFNameで送信。
+    * タグを数値化 (uint32 x1) して送信。ただし、頻繁に使われるタグを、より低コストに送信するための仕組みがある。
+    * `SerializeTagNetIndexPacked()` コメント部分を参照。
 
 ## 次回予告
 
