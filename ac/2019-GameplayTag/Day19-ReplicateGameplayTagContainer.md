@@ -13,6 +13,7 @@
 
 * [18日目](./Day18-ReplicateGameplayTag.md) 同様に、Container に含まれるタグが送信される。
 * 高速に送信する設定も同様。
+* [プロジェクト設定] - [GameplayTags] - [NumBitsForContainerSize] を指定することで、「『コンテナに含まれるタグ数』を表現するビット数」を設定できる。
 
 
 ## 次回予告
