@@ -31,21 +31,17 @@
 * [13日目: Switch と GameplayTagAssetInterface](./Day13-SwitchAndGameplayTagAssetInterface.md)
 * [14日目: GameplayTag と文字列を相互に変換する](./Day14-ConvertFromOrToString.md)
 
-### 3週目: GameplayTagを運用してみる
+### 3、4週目: GameplayTagを運用してみる
 
 * [15日目: AssetUserData: アセットに GameplayTag 情報を付加してみる](./Day15-GameplayTagOnAssetUserData.md)
 * [16日目: FGameplayTag の中身はどうなってるの？](./Day16-FGameplayTag.md)
 * [17日目: FGameplayTagContainer の中身はどうなってるの？](./Day17-FGameplayTagContainer.md)
-* 18日目: GameplayTag のネットワークでのやりとり
-* 19日目: GameplayTag 使用箇所の検索性
-* 20日目: GameplayTag 使用していたタグを変更or削除してしまったらどうなる？
-* 21日目: リファクタによるタグ名変更を安全に行うには
-<!-- * 21日目: 不正なタグ名、定義にないタグ名使用箇所を検出するには: 21日目に含める予定 -->
-
-### 4週目: GameplayTagで作ってみる
-
-* 22日目: GameplayTag で参照カウンタを作ってみる
-* 23日目: GameplayTag で参照カウンタを作ってみる C++版
+* [18日目: ネットワーク通信での GameplayTag](./Day18-ReplicateGameplayTag.md)
+* [19日目: ネットワーク通信での GameplayTagContainer](./Day19-ReplicateGameplayTagContainer.md)
+* 20日目: GameplayTag 使用箇所を検索する
+* 21日目: GameplayTag 使用していたタグを変更or削除してしまったらどうなる？
+* 22日目: リファクタによるタグ名変更を安全に行うには
+* 23日目: 不正なタグ名、定義にないタグ名使用箇所を検出するには: 21日目に含める予定
 * 24日目: (考え中...)
 * 25日目: (考え中...)
 

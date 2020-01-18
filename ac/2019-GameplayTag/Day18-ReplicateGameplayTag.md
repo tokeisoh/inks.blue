@@ -33,7 +33,7 @@
 
 ## 次回予告
 
-* 19日目: ネットワーク通信での GameplayTagContainer
+* [19日目: ネットワーク通信での GameplayTagContainer](./Day19-ReplicateGameplayTagContainer.md)
 
 ---
 

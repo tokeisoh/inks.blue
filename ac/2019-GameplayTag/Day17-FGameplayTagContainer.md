@@ -45,7 +45,7 @@
 
 ## 次回予告
 
-* 18日目: GameplayTag のネットワークでのやりとり
+* [18日目: ネットワーク通信での GameplayTag](./Day18-ReplicateGameplayTag.md)
 
 ---
 
